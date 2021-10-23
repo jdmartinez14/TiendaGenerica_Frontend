@@ -1,0 +1,87 @@
+@charset "ISO-8859-1";
+
+/* spacing */
+
+table {
+  table-layout: fixed;
+  width: 60%;
+  border-collapse: collapse;
+  border: 0px solid purple;
+}
+
+thead th:nth-child(1) {
+  width: 14%;
+}
+
+thead th:nth-child(2) {
+  width: 19%;
+}
+
+thead th:nth-child(3) {
+  width: 19%;
+}
+
+thead th:nth-child(4) {
+  width: 19%;
+}
+
+thead th:nth-child(5) {
+  width: 14%;
+}
+
+thead th:nth-child(6) {
+  width: 10%;
+}
+
+th, td {
+  padding: 0px;
+}
+
+thead {
+  color: white;
+  background-color: #3a57af;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: white;  
+}
+
+tbody tr:nth-child(even) {
+  background-color: #ebebeb;
+}
+
+a.button2 {
+  font-size: 11px;
+  font-weight: 300;
+  color: yellow;
+  padding: 4px 25px 4px 10px;
+  margin: 10px 8px 10px 10px;
+  display: inline-block;
+  float: right;
+  text-decoration: none;
+  width: 24px; height: 10px; 
+  -webkit-border-radius: 5px; 
+  -moz-border-radius: 5px; 
+  border-radius: 5px; 
+  background-color: #3a57af; 
+  -webkit-box-shadow: 0 3px rgba(58,87,175,.75); 
+  -moz-box-shadow: 0 3px rgba(58,87,175,.75); 
+  box-shadow: 0 3px rgba(58,87,175,.75);
+  transition: all 0.1s linear 0s; 
+  top: 0px;
+  position: relative;
+}
+
+#table1 {
+  width: 75%;
+  border: 0px;
+}
+
+#table1 td {
+  padding: 0px;  
+  background-color: #ebebeb;
+}
+
+#table2 {
+  width: 100%;
+}
